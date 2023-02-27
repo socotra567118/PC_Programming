@@ -39,17 +39,18 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.count.AutoSize = true;
-            this.count.Font = new System.Drawing.Font("굴림", 28.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.count.Font = new System.Drawing.Font("Verdana", 28.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.count.ForeColor = System.Drawing.Color.Blue;
             this.count.Location = new System.Drawing.Point(125, 124);
             this.count.Name = "count";
-            this.count.Size = new System.Drawing.Size(75, 75);
+            this.count.Size = new System.Drawing.Size(87, 91);
             this.count.TabIndex = 0;
             this.count.Text = "0";
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.Location = new System.Drawing.Point(471, 160);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 123);
@@ -62,6 +63,7 @@
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.AutoSize = true;
+            this.button2.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.Location = new System.Drawing.Point(471, 304);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(171, 123);
