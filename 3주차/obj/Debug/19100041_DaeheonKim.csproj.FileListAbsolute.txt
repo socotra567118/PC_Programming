@@ -1,0 +1,11 @@
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\bin\Debug\19100041_DaeheonKim.exe.config
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\bin\Debug\19100041_DaeheonKim.exe
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\bin\Debug\19100041_DaeheonKim.pdb
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\obj\Debug\19100041_DaeheonKim.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\obj\Debug\19100041_DaeheonKim.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\obj\Debug\_19100041_DaeheonKim.Form1.resources
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\obj\Debug\_19100041_DaeheonKim.Properties.Resources.resources
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\obj\Debug\19100041_DaeheonKim.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\obj\Debug\19100041_DaeheonKim.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\obj\Debug\19100041_DaeheonKim.exe
+\\Mac\Home\Desktop\develope\Windows\19100041_DaeheonKim\obj\Debug\19100041_DaeheonKim.pdb
