@@ -23,10 +23,16 @@ namespace _19100041_DaeheonKim
         (int x, int y) secondPosition = (50, 410);
         (int x, int y) thirdPosition = (340, 290);
 
+        int inCount = 0;
+        int outCount = 0;
+
         public Form1()
         {
             InitializeComponent();
             this.MinimumSize = new Size(400, 500);
+
+            double triangleArea = Math.Abs(ReturnArea(first: firstPosition, second: secondPosition, third: thirdPosition));
+            RealRatio.Text = (triangleArea / Convert.ToDouble(DotArea.ClientSize.Width * DotArea.ClientSize.Height)).ToString();
         }
 
         private void StartButton_Click(object sender, EventArgs e)
@@ -61,14 +67,20 @@ namespace _19100041_DaeheonKim
 
                 if (IsInTriangle(first: firstArea, second: secondArea, third: thirdArea))
                 {
+                    inCount += 1;
                     graphics.DrawEllipse(blackPen, xDot, yDot, 1, 1);
                 } else
                 {
+                    outCount += 1;
                     graphics.DrawEllipse(lightGrayPen, xDot, yDot, 1, 1);
                 }
 
                 
             }
+
+            InCount.Text = inCount.ToString();
+            OutCount.Text = outCount.ToString();
+            MonteRatio.Text = (Convert.ToDouble(inCount) / Convert.ToDouble(dotNumber)).ToString();
         }
 
         private bool IsInTriangle(double first, double second, double third)

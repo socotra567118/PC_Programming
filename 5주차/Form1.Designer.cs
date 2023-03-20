@@ -30,6 +30,10 @@
         {
             this.DotArea = new System.Windows.Forms.PictureBox();
             this.StartButton = new System.Windows.Forms.Button();
+            this.RealRatio = new System.Windows.Forms.Label();
+            this.InCount = new System.Windows.Forms.Label();
+            this.OutCount = new System.Windows.Forms.Label();
+            this.MonteRatio = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DotArea)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,17 +57,57 @@
             this.StartButton.UseVisualStyleBackColor = true;
             this.StartButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
+            // RealRatio
+            // 
+            this.RealRatio.AutoSize = true;
+            this.RealRatio.Location = new System.Drawing.Point(1104, 101);
+            this.RealRatio.Name = "RealRatio";
+            this.RealRatio.Size = new System.Drawing.Size(0, 24);
+            this.RealRatio.TabIndex = 2;
+            // 
+            // InCount
+            // 
+            this.InCount.AutoSize = true;
+            this.InCount.Location = new System.Drawing.Point(1104, 125);
+            this.InCount.Name = "InCount";
+            this.InCount.Size = new System.Drawing.Size(23, 24);
+            this.InCount.TabIndex = 3;
+            this.InCount.Text = "0";
+            // 
+            // OutCount
+            // 
+            this.OutCount.AutoSize = true;
+            this.OutCount.Location = new System.Drawing.Point(1104, 149);
+            this.OutCount.Name = "OutCount";
+            this.OutCount.Size = new System.Drawing.Size(23, 24);
+            this.OutCount.TabIndex = 4;
+            this.OutCount.Text = "0";
+            // 
+            // MonteRatio
+            // 
+            this.MonteRatio.AutoSize = true;
+            this.MonteRatio.Location = new System.Drawing.Point(1104, 173);
+            this.MonteRatio.Name = "MonteRatio";
+            this.MonteRatio.Size = new System.Drawing.Size(23, 24);
+            this.MonteRatio.TabIndex = 5;
+            this.MonteRatio.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1285, 941);
+            this.Controls.Add(this.MonteRatio);
+            this.Controls.Add(this.OutCount);
+            this.Controls.Add(this.InCount);
+            this.Controls.Add(this.RealRatio);
             this.Controls.Add(this.StartButton);
             this.Controls.Add(this.DotArea);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.DotArea)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -71,6 +115,10 @@
 
         private System.Windows.Forms.PictureBox DotArea;
         private System.Windows.Forms.Button StartButton;
+        private System.Windows.Forms.Label RealRatio;
+        private System.Windows.Forms.Label InCount;
+        private System.Windows.Forms.Label OutCount;
+        private System.Windows.Forms.Label MonteRatio;
     }
 }
 
